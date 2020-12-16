@@ -1,0 +1,5 @@
+docker run --network jenkins -d --name agent-core ^
+-e "JENKINS_AGENT_SSH_PUBKEY=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCs04OPAOscgC82rZv52W6aCKh0hIW+exTxEqAURqsRXdQJVKSAF7gPs2BSCPHScEgHRiULhYwIdAM6yG6+m/ZmpOxbnIBMZIOtxLga30fipJyb2D7WjdKu3XMuPL08XvNwo+T3qhu/Hrkf6J/hHV8LswmgYzqHCjqh2gAvPZV+L5KSjTKKz0iGnbkcAIcWaGBe2rlJa/jmMPQkYM1lsMmUqCvAKbda6fOzDnu7f4RQr8MSe4yv2gJFPoIKETgsjIMySdBLwuRdRP6gfxylwXaDAFlzTRWmC3wiNZG0/3KjSmUXWmC52tme/iiiCa2DhNY7Ej4wy5WOImhSl0sgy+/N backs@DESKTOP-IMS100O" ^
+dotnet-slave:1.1
+
+

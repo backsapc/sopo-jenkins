@@ -1,0 +1,1 @@
+docker build -t dotnet-slave:1.1 .
